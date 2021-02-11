@@ -1,0 +1,25 @@
+p{
+    color:white
+}
+button{
+    width:160px;
+    height:150px;
+    margin:10px
+}
+#p1{
+    margin-top: 10px;
+    margin-left:60px;
+    text-align:left
+}
+#img1{
+    width:130px;
+    height:130px
+}
+.b{
+    width:100px;
+    height:40px;
+    background-color: rgb(187, 184, 184);
+}
+.mat-dialog-content {
+    overflow:scroll
+}

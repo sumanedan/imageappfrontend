@@ -1,0 +1,40 @@
+<mat-dialog-content>
+<mat-grid-list cols="9" rowHeight="160px" style="background-color: rgb(75, 72, 72);">
+    <mat-grid-tile [colspan]="1" [rowspan]="8">
+        <button mat-button><mat-icon>arrow_back_ios</mat-icon></button>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="3" style="text-align: center;" [rowspan]="8">
+        <img src={{url}}>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="4" [rowspan]="8">
+        <div style="text-align: center;">
+            <p>{{name}}</p>
+            <p>{{siteaddress}}</p>
+            <p>
+                <button mat-button class=b><mat-icon>language</mat-icon>Visit</button>
+                <button mat-button class=b><mat-icon>turned_in_not</mat-icon>Save</button>
+                <button mat-button class=b>View Saved</button>
+                <button mat-button class=b><mat-icon>share</mat-icon>Share</button>
+
+            </p>
+            <p id="p1">Related Images</p>
+            <div>
+                <span *ngFor="let list of imglist|slice:0:6">
+                    <button mat-button>
+                        <img id="img1" src="{{list.url}}">
+                        </button>
+                </span>
+            </div>
+
+        </div>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="1" [rowspan]="1">
+        <button mat-button (click)=close()><mat-icon>close</mat-icon></button>
+    </mat-grid-tile>  
+    <mat-grid-tile [rowspan]="6">
+        <button mat-button><mat-icon>arrow_forward_ios</mat-icon></button>
+    </mat-grid-tile> 
+   
+
+</mat-grid-list>
+</mat-dialog-content>

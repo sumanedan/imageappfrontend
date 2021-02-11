@@ -1,0 +1,39 @@
+{
+    "images": [
+      {
+        "id": 1,
+        "title": "Laptop1",
+        "Url": "../../assets/images/laptop1.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Laptop2",
+        "Url": "../../assets/images/laptop2.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Laptop3",
+        "Url": "../../assets/images/laptop3.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Laptop4",
+        "Url": "../../assets/images/laptop4.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Laptop5",
+        "Url": "../../assets/images/laptop5.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Laptop6",
+        "Url": "../../assets/images/laptop6.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Laptop7",
+        "Url": "../../assets/images/laptop7.jpg"
+      }
+    ]
+  }
